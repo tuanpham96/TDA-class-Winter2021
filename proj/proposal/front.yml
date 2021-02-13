@@ -1,0 +1,11 @@
+listings: true
+resource-path: ["../../resources/pandoc/", "."]
+include-in-header: [listings.tex]
+csl: ieee.csl
+metadata:
+  link-citations: true
+  notes-after-punctuation: true
+citeproc: true
+variables:
+  geometry: margin=0.7in
+  fontsize: 10pt
