@@ -1,5 +1,5 @@
 _site*
-Gemfile
+# Gemfile
 Gemfile.lock
 assets*
 .vscode/*
