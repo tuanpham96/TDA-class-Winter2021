@@ -1,0 +1,9 @@
+<script type="text/javascript">
+// var result =  input.replace(/\[@(.+?)\]/g, "{% cite $1 %}");
+// x[i].innerHTML = text.replace(/\[@(.+?)\]/g,"<a class='citation' href='#$1'>$1</a>")
+var pars = document.querySelectorAll("p,li,div");
+for (i = 0; i < pars.length; i++) {
+    var text = pars[i].innerHTML;
+    pars[i].innerHTML = text.replace(/\[@(.+?)\]/g,"<a class='citation' href='#$1'>[$1]</a>")
+}
+</script>

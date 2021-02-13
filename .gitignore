@@ -1,3 +1,9 @@
+_site*
+Gemfile
+Gemfile.lock
+assets*
+.vscode/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,1 +1,8 @@
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-katex
+  - jekyll-scholar
+scholar:
+  style: modern-language-association
+  bibliography: "*"
+  bibliography_template: <a class='citation' href='#{{key}}'>[{{key}}]</a> {{reference}}
