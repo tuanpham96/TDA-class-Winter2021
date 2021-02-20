@@ -3,11 +3,7 @@ bibliography: [./library.bib]
 notes: convert by `pandoc --defaults front.yml  -s project-proposal.md -o project-proposal.pdf`
 ---
 
-# Proposal: _Applying TDA on Purkinje population calcium data_
-
-{% include head.html %}
-
-<!-- {% katexmm %} -->
+# Proposal: _Applying TDA on Purkinje population calcium data
 
 ## Inspiration
 
@@ -52,9 +48,3 @@ __*TDA*__:
 ## Acknowledgements
 
 The experimental data are obtained from my lab (Dr. Christian Hansel) by Silas Busch and Ting-Feng Lin. I would like to acknowledge and thank them for allowing me to use their data to play around for the project. Since these data are not published yet, I will not make the data public but the codes and final report will be.
-
-<!-- {% endkatexmm %} -->
-
-{% bibliography %}
-
-{% include footer.html %}
