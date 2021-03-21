@@ -1,9 +1,7 @@
 
 
 \begin{table}[h!]
-    \label{table:1}
     \centering
-
 \footnotesize
 \begin{tabular}{cccccccc}
     \toprule
@@ -24,7 +22,8 @@
     \bottomrule
 \end{tabular}
 \normalsize
-
-\caption{\textit{Stimulus classification results after training}}
-
+\caption{\textit{Stimulus classification accuracies after training}
+Left columns show the 4 different network configurations (network variants: vanilla vs with batch-norm layer; optimizer variants: SGD vs Adam). The inputs are constructed based on the combinations of 3 different sources: $\Delta$ (mean activity difference before and after stimulus onset), $\phi$ (persistent scores and features) and $\beta$ (concatenated smoothed sub-sampled Betti curves). See Methods for details. The upper table shows the (mean $\pm$ 95\% confidence interval) of 100 instantiations of train-test splitting (one-trial-per-categories held out). The lower table shows the maximum accuracies achieved at the end of the training for each setup. Bold numbers represent the ``best'' in each column per table.
+}
+\label{table:1}
 \end{table}

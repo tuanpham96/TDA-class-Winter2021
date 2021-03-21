@@ -9,5 +9,3 @@ It is perfectly fine to report on negative results.  Say what you thought might 
 **Code**: please submit any code that was important in obtaining your results in a zip file.  Alternatively, it can be made publicly available e.g. on GitHub.  If you have data or anything else you can't share, just make a note of what isn't included.
 
 Deadline is 3/20 at midnight.  If you need a 1 day extension please ask (grades are due 3/23)
-
-
