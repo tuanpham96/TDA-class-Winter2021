@@ -24,4 +24,4 @@ dependencies:
       - hypernetx
       - psutil 
       - requests
-
+      - p_tqdm
