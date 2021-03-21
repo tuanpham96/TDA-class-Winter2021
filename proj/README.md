@@ -3,7 +3,7 @@
 - Proposal: [link](https://tuanpham96.github.io/TDA-class-Winter2021/proj/proposal/project-proposal.pdf)
 - Report: [link](https://tuanpham96.github.io/TDA-class-Winter2021/proj/report.pdf)
 - Data: not included as these are unpublished
-- Notebooks (can be access in the links below, in the folder [notebooks](notebooks) for via [nbvewier](https://nbviewer.jupyter.org/github/tuanpham96/TDA-class-Winter2021/tree/main/proj/notebooks/))
+- Notebooks (can be access in the links below, in the folder [notebooks](notebooks) or via [nbviewer](https://nbviewer.jupyter.org/github/tuanpham96/TDA-class-Winter2021/tree/main/proj/notebooks/))
   - [preprocessing](notebooks/preprocessing.ipynb): preprocessing activity data, and building similarity/distance matrices.
   - [tda-extraction](notebooks/tda-extraction.ipynb): extracting TDA features, including data, shuffled and null model Betti curves, persistent features and bottleneck distance matrices.
   - [plot-betti-and-scores](notebooks/plot-betti-and-scores.ipynb): plot Betti curves and summary of a few persistent features/scores
